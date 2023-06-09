@@ -1,0 +1,148 @@
+body {
+    background-color: #000000;
+}
+.accordion-item {
+    background: rgb(255,253,205);
+    background: linear-gradient(0deg, rgba(244,197,95,0.9822303921568627) 0%, #fcca0b 100%);
+    border: none;
+    border-radius: 5%;
+}
+.accordion-body {
+    background: rgb(255,253,205);
+    background: linear-gradient(0deg, rgba(244,197,95,0.9822303921568627) 0%, #fcca0b 100%);
+    border: none;
+    border-radius: 5%;
+}
+#dishButton {
+    background-color: #fcca0b;
+    font-weight: bolder;
+    border: none;
+}
+.accordions {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15%;
+    width: 130%;
+}
+#accordionExample {
+    margin-top: 3%;
+    width: 100%;
+}
+#nbar {
+    background-color: #fcca0b;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.accordions {
+    gap: 1%;
+}
+#dish_input {
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #fcca0b;
+    outline: none;
+    background-color: black;
+}
+::placeholder {
+    color: whitesmoke;
+}
+#meal {
+    margin-left: 3%;
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #fcca0b;
+    outline: none;
+    background-color: black;
+}
+.input_info {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+#submit_button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+}
+.input_goals {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+#input_calories {
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #fcca0b;
+    outline: none;
+    background-color: black;
+    width: 100%;
+}
+#input_proteins {
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #fcca0b;
+    outline: none;
+    background-color: black;
+    width: 100%;
+}
+#input_fats {
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #fcca0b;
+    outline: none;
+    background-color: black;
+    width: 100%;
+}
+#input_carbs {
+    color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #fcca0b;
+    outline: none;
+    background-color: black;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+#add_button {
+    margin-left: 2%;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#breakfast_span, #brunch_span, #lunch_span, #snack_span, #dinner_span {
+    display: block;
+    margin: 0 auto;
+}
+.icon {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 5ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
